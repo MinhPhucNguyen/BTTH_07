@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Archivo:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Registration Form</h1>
+            <form action="" class="Form">
+                <div class="row">
+                    <div class="col">
+                        User ID:
+                    </div>
+                    <div class="col-input">
+                        <input type="text" id="txtUserID" required>
+                        <span id="statusOfUserID"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Password:
+                    </div>
+                    <div class="col-input">
+                        <input type="password" id="txtpassword" required>
+                        <span id="statusOfPassword"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        Name:
+                    </div>
+                    <div class="col-input">
+                        <input type="text" id="txtName" required>
+                        <span id="statusOfName"></span>
+                    </div>
+                </div>
+        
+                <div class="row">       
+                    <div class="col">
+                        Address:
+                    </div>
+                    <div class="col-input">
+                        <input type="text" id="txtAddress">
+                        <span id="statusOfAddress"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                       Country: 
+                    </div>
+                    <div class="col-input">
+                        <select name="" id="txtSelect" required>
+                            <option value="1" selected="selected">(Please select a country)</option>
+                            <option value="2">Hanoi</option>
+                            <option value="3">HCM</option>
+                            <option value="4" >Danang</option>
+                        </select>
+                        <span id="statusOfSelectcountry"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        ZIP Code: 
+                    </div>
+                    <div class="col-input">
+                        <input type="text" id="txtZipCode" required>
+                        <span id="statusOfZipCode"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        Email:
+                    </div>
+                    <div class="col-input">
+                        <input type="text" id="txtEmail" required>
+                        <span id="statusOfEmail"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        Sex:
+                    </div>
+                    <div class="col-input">
+                        <input type="radio" name="gender"  id="txtGender" value="Male" required>Male
+                        <input type="radio" name="gender" id="txtGender" value="Female" required>Female
+                        <span id="statusOfRadio"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        Language: 
+                    </div>
+                    <div class="col-input">
+                        <input type="checkbox" class="txtLanguage" required>English
+                        <input type="checkbox" class="txtLanguage" required>Non English
+                        <select name="" id="txtCheckbox" required>
+                            <option value="1" selected="selected">(Other Language)</option>
+                            <option value="2">VietNam</option>
+                            <option value="3">French</option>
+                            <option value="5" >Argentina</option>
+                            <option value="6" >China</option>
+                            <option value="7" >Laos</option>
+                            <option value="8" >Thailand</option>
+                        </select>
+                        <span id="statusOfCheckbox"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        About:  
+                    </div>
+                    <div class="col-input">
+                        <textarea name="about" id="txtAbout" cols="30" rows="10"></textarea>
+                        <span id="statusOfAbout"></span>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col-input-submit">
+                        <input type="submit" name="btnRegiter" id="btnRegister" value="Register" required>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

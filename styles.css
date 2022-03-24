@@ -1,0 +1,87 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 650px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.Form{
+    padding: 5px;
+}
+
+.container h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #272d40;
+    display: block;
+    line-height: 1.8;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.col{
+    width: 15%;
+    text-align: left;
+}
+
+.col-input{
+    width: 80%;
+    text-align: left;
+}
+
+input{
+    height: 24px;
+}
+
+.col-input-language span,
+.col-input span{
+    font-size: 13px;
+}
+
+.col-input-submit{
+    width: 100%;
+}
+
+.col-input{
+    display: flex;
+    align-items: center;
+}
+
+#btnRegister{
+    background: transparent;
+    border: 1px solid #272d40;
+    background-color: #272d40;
+    color: white;
+    height: 40px;
+    font-size: 24px;
+    width: 50%;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#btnRegister:hover{
+    background: transparent;
+    color: #272d40;
+}
